@@ -114,7 +114,7 @@ app.post("/delete", function (req, res) {
         console.log(err);
       } else {
         console.log("checked Item successfully deleted");
-        res.redirect("/:list");
+        res.redirect("/");
       }
     });
   } else {
